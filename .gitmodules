@@ -1,0 +1,72 @@
+[submodule "angles"]
+	path = angles
+	url = ./src/angles/
+[submodule "diagnostics"]
+	path = diagnostics
+	url = ./src/diagnostics
+[submodule "image_common"]
+	path = image_common
+	url = ./src/image_common
+[submodule "realsense-ros"]
+	path = realsense-ros
+	url = ./src/realsense-ros
+[submodule "ros_deep_learning"]
+	path = ros_deep_learning
+	url = ./src/ros_deep_learning
+[submodule "rqt_image_view"]
+	path = rqt_image_view
+	url = ./src/rqt_image_view
+[submodule "ublox"]
+	path = ublox
+	url = ./src/ublox
+[submodule "velodyne"]
+	path = velodyne
+	url = ./src/velodyne
+[submodule "vision_msgs"]
+	path = vision_msgs
+	url = ./src/vision_msgs
+[submodule "vision_opencv"]
+	path = vision_opencv
+	url = ./src/vision_opencv
+[submodule "yolact_ros"]
+	path = yolact_ros
+	url = ./src/yolact_ros
+[submodule "yolact_ros_msgs"]
+	path = yolact_ros_msgs
+	url = ./src/yolact_ros_msgs
+[submodule "src/angles"]
+	path = src/angles
+	url = https://github.com/ros/angles.git
+[submodule "src/diagnostics"]
+	path = src/diagnostics
+	url = https://github.com/ros/diagnostics.git
+[submodule "src/image_common"]
+	path = src/image_common
+	url = https://github.com/ros-perception/image_common.git
+[submodule "src/realsense-ros"]
+	path = src/realsense-ros
+	url = https://github.com/IntelRealSense/realsense-ros.git
+[submodule "src/ros_deep_learning"]
+	path = src/ros_deep_learning
+	url = https://github.com/dusty-nv/ros_deep_learning
+[submodule "src/rqt_image_view"]
+	path = src/rqt_image_view
+	url = https://github.com/ros-visualization/rqt_image_view.git
+[submodule "src/ublox"]
+	path = src/ublox
+	url = https://github.com/KumarRobotics/ublox.git
+[submodule "src/velodyne"]
+	path = src/velodyne
+	url = https://github.com/ros-drivers/velodyne.git
+[submodule "src/vision_msgs"]
+	path = src/vision_msgs
+	url = https://github.com/ros-perception/vision_msgs.git
+[submodule "src/vision_opencv"]
+	path = src/vision_opencv
+	url = https://github.com/ros-perception/vision_opencv.git
+[submodule "src/yolact_ros"]
+	path = src/yolact_ros
+	url = https://github.com/Eruvae/yolact_ros.git
+[submodule "src/yolact_ros_msgs"]
+	path = src/yolact_ros_msgs
+	url = https://github.com/Eruvae/yolact_ros_msgs.git
