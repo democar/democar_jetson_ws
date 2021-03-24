@@ -19,9 +19,19 @@ def generate_launch_description():
                 {
                     'serial_no': serial,
                     'color_qos': 'SYSTEM_DEFAULT',
+                    'depth_qos': 'SYSTEM_DEFAULT',
                     'enable_infra1': False,
                     'enable_infra2': False,
-#                    'enable_depth': False,
+                    'enable_depth': False,
+#                    'filters': 'colorizer,pointcloud',
+                    'filters': 'colorizer',
+                    'tf_publish_rate': 10.0,
+                    'ordered_pc': True,
+                    'allow_no_texture_points': True,
+                    'align_depth': False,
+                    'color_fps': 15.0,
+                    'depth_fps': 15.0,
+#                    'initial_reset': True,
                 },
             ]
         )
@@ -74,12 +84,12 @@ def generate_launch_description():
 
 
     return launch.LaunchDescription([
-        create_cam_node('825312073164', '/camera1'),
-        create_cam_node('831612071848', '/camera2'),
-        velodyne_driver_node,
-        gps_node,
+#        create_cam_node('825312073164', '/camera1'),
+#        create_cam_node('831612071848', '/camera2'),
+#        velodyne_driver_node,
+#        gps_node,
 
-#        velodyne_convert_node,
-#        detectnet_node,
-#        segnet_node,
+        velodyne_convert_node,
+        detectnet_node,
+        segnet_node,
     ])
